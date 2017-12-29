@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="public/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<ul class="menu" id="menu">
+    <li><img src="public/images/logo.png" alt="Logotype"></li>
+    <a href="#about" id="menuAbout" class="current">
+        <li>About Me</li>
+    </a>
+    <a href="#developer" id="menuDeveloper">
+        <li>Developer</li>
+    </a>
+    <a href="#designer"id="menuDesigner">
+        <li>Designer</li>
+    </a>
+    <a href="#contact" id="menuContact">
+        <li>Contact</li>
+    </a>
+</ul>
+<div class="about" id="about"></div>
+<div class="aboutSection">
+    <span class="intro">Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem </span>
+    <span class="mainText"><p>Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem
+    Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem
+        Lorem ipsum dorem Lorem</p> ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem
+    Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem
+    </span>
+</div>
+<div class="developer" id="developer"></div>
+<div class="developerSection">
+    <span class="intro">Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem </span>
+    <span class="mainText"><p>Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem
+    Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem
+        Lorem ipsum dorem Lorem</p> ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem
+    Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem
+    </span>
+</div>
+<div class="designer" id="designer"></div>
+<div class="designerSection">
+    <span class="intro">Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem </span>
+    <span class="mainText"><p>Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem
+    Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem
+        Lorem ipsum dorem Lorem</p> ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem
+    Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem Lorem ipsum dorem
+    </span>
+</div>
+
+<img class="contact" src="public/images/contact.jpg" alt="Contact" id="contact">
+<div class="contactSection">
+    <span class="intro">Bla bla bla, here is my Email, bla bla bla. plz hire me, bla bla bla.. </span>
+    <form name="contactForm" id="contactForm" method="POST" action="send">
+        <input type="text"><input type="text">
+        <textarea name="" id="" cols="30" rows="10" form="contactForm"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    {{msg}}
+</div>
+</body>
+<script src="public/js/scrolling.js"></script>
+<script src="public/js/menuScroll.js"></script>
+<script src="public/js/emailHandler.js"></script>
+</html>
