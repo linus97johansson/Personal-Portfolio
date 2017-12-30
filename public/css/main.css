@@ -175,3 +175,29 @@ html, body{
 .current li{
     color:black;
 }
+
+.formField{
+
+
+    outline:solid red 1px;
+    width:70%;
+    position :relative;
+
+}
+.submited{
+
+    text-align: center;
+    margin: 0 auto;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 46px;
+    opacity: 0;
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0;
+    position: absolute;
+    background-color:red;
+    z-index: -10;
+    transition: opacity 2s;
+}

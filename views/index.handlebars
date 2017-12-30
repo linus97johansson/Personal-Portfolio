@@ -15,7 +15,7 @@
     <a href="#developer" id="menuDeveloper">
         <li>Developer</li>
     </a>
-    <a href="#designer"id="menuDesigner">
+    <a href="#designer" id="menuDesigner">
         <li>Designer</li>
     </a>
     <a href="#contact" id="menuContact">
@@ -53,12 +53,15 @@
 <img class="contact" src="public/images/contact.jpg" alt="Contact" id="contact">
 <div class="contactSection">
     <span class="intro">Bla bla bla, here is my Email, bla bla bla. plz hire me, bla bla bla.. </span>
-    <form name="contactForm" id="contactForm" method="POST" action="send">
-        <input type="text"><input type="text">
-        <textarea name="" id="" cols="30" rows="10" form="contactForm"></textarea>
-        <button type="submit">Submit</button>
+    <div class="formField">
+        <div class="submited" id="submited">Submited!</div>
+    <form method="POST" action="send" id="contactForm" data-autosubmit>
+        <input type="text" name="email"><input type="text" name="phone">
+        <textarea rows="5" name="message"></textarea>
+        <button type="submit" id="sub">Submit</button>
     </form>
-    {{msg}}
+    </div>
+
 </div>
 </body>
 <script src="public/js/scrolling.js"></script>
